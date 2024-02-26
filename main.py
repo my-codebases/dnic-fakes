@@ -4,7 +4,7 @@ from output import generate_json_data, generate_sql_scripts
 from datetime import datetime
 
 starting_dnic_id = 1
-start_date = datetime(2024, 12, 3, 9, 0, 0)
+start_date = datetime(2024, 3, 12, 9, 0, 0)
 number_days = 5
 offices = {
     'ID_CARD': {

@@ -1,7 +1,7 @@
-from shifts import create_fake_shift
-from users import create_fake_user
-from payments import create_fake_payment
-from appointments import create_fake_appointment
+from model.shifts import create_fake_shift
+from model.users import create_fake_user
+from model.payments import create_fake_payment
+from model.appointments import create_fake_appointment
 
 from datetime import timedelta
 from random import random
