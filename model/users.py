@@ -47,7 +47,7 @@ def create_fake_user(shift_type):
         'role': 'USER',
         'material_number': material_number,
         'id_card_expiration_date': id_card_expiration_date.strftime('%Y-%m-%d %H:%M:%S'),
-        'passport_expiration_date': passport_expiration_date.strftime('%Y-%m-%d %H:%M:%S') if shift_type == 'PASSPORT' else None
+        'passport_expiration_date': passport_expiration_date.strftime('%Y-%m-%d %H:%M:%S') if shift_type == 'PASSPORT' and random.random() > 0.2 else None
     }
     
     return user
